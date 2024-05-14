@@ -16,7 +16,7 @@ REM ----------- COMPILER FLAGS ------------
 :: | nologo | turn off compiler name banner.
 :: |   Oi   | use intrinsics whenever possible.
 :: |   O2   | enable optimisations.
-:: |  std:  | compiler version e.g. c++20.
+:: |   std  | compiler version e.g. c++20.
 :: |   wd   | disable warnings for a specific warning code.
 :: |   W4   | compile-time warnings level.
 :: |   WX   | treat warnings as errors.
@@ -27,8 +27,9 @@ REM ----------- COMPILER FLAGS ------------
 REM ----------- COMPILER FLAGS ------------
 
 REM ------------ LINKER FLAGS -------------
-:: | nologo | turn off compiler name banner.
-:: |  OUT:  | specify .lib/.dll filename.
+:: |  nologo | turn off compiler name banner.
+:: |   OUT   | specify .lib/.dll filename.
+:: | LIBPATH | default path to look in when linking libraries.
 REM ------------ LINKER FLAGS -------------
 
 
@@ -42,10 +43,11 @@ REM ----------- CUSTOM DEFINES ------------
 REM ----------- CUSTOM DEFINES ------------
 
 REM ------------ LINKED LIBS --------------
-:: |--------------|------------------------
-:: |  LIB         |  Description
-:: | user32.lib   | General windows OS apis.
-:: | Winmm.lib    | timeGetDevCaps, timeBeginPeriod etc.
-:: | Gdi32.lib    | Generic Windows API required for graphics.
-:: | OpenGL32.lib | Windows lib for OpenGL (TODO: we should be linking to this completely dynamically).
+:: |-----------|---------------------------
+:: |   LIB     |  Description
+:: |  user32   | General windows OS apis.
+:: |  Winmm    | timeGetDevCaps, timeBeginPeriod etc.
+:: |  Gdi32    | Generic Windows API required for graphics.
+:: |  OpenGL32 | Windows lib for OpenGL (TODO: we should be linking to this completely dynamically).
+:: |  Krystal  | The Krystal game engine!
 REM ------------ LINKED LIBS --------------
