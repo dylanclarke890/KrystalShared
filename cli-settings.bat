@@ -11,6 +11,7 @@ REM ----------- COMPILER FLAGS ------------
 :: |    c   | compile but do not link.
 :: |    D   | compiler level #defines.
 :: |   FC   | compile-time errors show full path to source code.
+:: |   FO   | specify a name/output dir for object files.
 :: |   MP   | enable multi-processing compilation.
 :: | nologo | turn off compiler name banner.
 :: |   Oi   | use intrinsics whenever possible.
