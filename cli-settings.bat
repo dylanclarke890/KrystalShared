@@ -32,7 +32,6 @@ REM ------------ LINKER FLAGS -------------
 :: | LIBPATH | default path to look in when linking libraries.
 REM ------------ LINKER FLAGS -------------
 
-
 REM ----------- CUSTOM DEFINES ------------
 :: |  NAME                          |  Description
 :: |--------------------------------|-------------
