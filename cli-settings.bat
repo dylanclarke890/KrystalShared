@@ -48,5 +48,6 @@ REM ------------ LINKED LIBS --------------
 :: |  Winmm    | timeGetDevCaps, timeBeginPeriod etc.
 :: |  Gdi32    | Generic Windows API required for graphics.
 :: |  OpenGL32 | Windows lib for OpenGL (TODO: we should be linking to this completely dynamically).
+:: |  assimp   | Asset-Importer-Lib.
 :: |  Krystal  | The Krystal game engine!
 REM ------------ LINKED LIBS --------------
