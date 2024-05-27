@@ -1,3 +1,4 @@
 - TODO:
 - look into detecting objects with the same z-index to prevent z-index fighting
 - decide whether it should be in Editor or part of the main engine
+- keep track of transparent objects separately so we can sort them from back to front before drawing
